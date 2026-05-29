@@ -230,3 +230,6 @@ require("diffview").setup({
     },
   },
 })
+
+vim.keymap.set('n', '<leader>do', '<cmd>DiffviewOpen<cr>', { desc = '[D]iffview [O]pen' })
+vim.keymap.set('n', '<leader>dc', '<cmd>DiffviewClose<cr>', { desc = '[D]iffview [C]lose' })
