@@ -19,6 +19,7 @@ do
   vim.o.shiftwidth = 2
   vim.o.tabstop = 2
   vim.o.shiftwidth = 2
+  vim.o.textwidth = 120
   vim.o.undofile = true
   vim.o.ignorecase = true
   vim.o.smartcase = true
